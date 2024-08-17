@@ -303,6 +303,17 @@ iframe h3 {
   .box-menu {
     display: flex;
   }
+  .container {
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .container .contactForm {
+    padding: 0 3px;
+    width: 100%;
+  }
+  iframe {
+    width: 100%;
+  }
 }
 /* end of media query for navbar  */
 
@@ -323,7 +334,7 @@ button {
   color: #ffffff;
 }
 
-*/ .submit {
+.submit {
   border: 1px solid white;
   border-radius: 10px;
   padding: 10px;
