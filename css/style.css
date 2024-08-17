@@ -80,7 +80,6 @@ header.sticky {
   font-weight: 700;
   text-decoration: none;
   margin-bottom: 20px;
-
 }
 
 span1 {
@@ -208,7 +207,7 @@ li > a:hover {
   grid-template-columns: repeat(auto-fit, minmax(200px, auto));
   align-items: center;
   gap: 2rem;
-  background:#21162D;
+  background: #21162d;
 }
 .footer-box {
   display: flex;
@@ -274,7 +273,6 @@ iframe h3 {
 .c-right {
   font-family: "Open Sans", sans-serif;
 }
-.
 
 /* media query for navbar  */
 @media (max-width: 768px) {
