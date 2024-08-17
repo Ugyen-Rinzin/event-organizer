@@ -630,7 +630,7 @@ h3 {
 /* media query section  */
 @media screen and (max-width: 600px) {
   /* navbar mobile view  */
-  .navbar {
+  /* .navbar {
     position: absolute;
     right: 0;
     height: 100vh;
@@ -651,7 +651,7 @@ h3 {
   .navbar.active,
   .box-menu.active {
     transform: translateX(0);
-  }
+  } */
 
   header {
     margin-bottom: 0px;
@@ -663,9 +663,9 @@ h3 {
   .h-right {
     display: none;
   }
-  /* .navbar a {
+  .navbar a {
     display: none;
-  } */
+  }
   /* navbar mobile view  */
   /* video content media query  */
   #video-content {
