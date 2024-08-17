@@ -3,10 +3,10 @@ window.addEventListener("scroll", function () {
   header.classList.toggle("sticky", window.scrollY > 60);
 });
 
-let menu = document.querySelector("#menu-icon");
-let navbar = document.querySelector(".navbar");
-
-menu.onclick = () => {
-  menu.classList.toggle("bx-x");
-  navbar.classList.toggle("open");
-};
+// navbar js code
+const boxmenu = document.querySelector(".box-menu");
+const navBar = document.querySelector(".navbar");
+boxmenu.addEventListener("click", () => {
+  navBar.classList.toggle("active");
+  boxmenu.classList.toggle("active");
+});
