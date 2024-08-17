@@ -362,7 +362,9 @@ h2 {
 /* end */
 
 /* value1 */
-
+.team-section {
+  z-index: -1;
+}
 .content {
   display: grid;
   grid-gap: 30px;
